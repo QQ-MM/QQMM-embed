@@ -1,0 +1,2 @@
+TRAINING_CONFIG:
+  ddp_backend: 'hccl'

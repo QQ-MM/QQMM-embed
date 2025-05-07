@@ -1,0 +1,33 @@
+{
+  "auto_map": {
+    "AutoImageProcessor": "image_processing_qwen2vl_navit.Qwen2VLNaViTImageProcessor"
+  },
+  "do_convert_rgb": true,
+  "do_normalize": true,
+  "do_rescale": true,
+  "do_resize": true,
+  "image_mean": [
+    0.48145466,
+    0.4578275,
+    0.40821073
+  ],
+  "image_processor_type": "Qwen2VLNaViTImageProcessor",
+  "image_std": [
+    0.26862954,
+    0.26130258,
+    0.27577711
+  ],
+  "max_single_num_patches": {
+    "image": 2048,
+    "video": 4096
+  },
+  "max_total_num_patches": -1,
+  "merge_size": 2,
+  "patch_size": 14,
+  "resample": 3,
+  "rescale_factor": 0.00392156862745098,
+  "size": {
+    "shortest_edge": 28,
+    "longest_edge": 1512
+  }
+}
