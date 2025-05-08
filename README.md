@@ -45,6 +45,8 @@ print('Similarity score: ', sim)
 ```
 
 ### Acknowledgments
+- [MMEB benchmark](https://github.com/TIGER-AI-Lab/VLM2Vec) A comprehensive framework for training and evaluating multimodal embedding models developed by TIGER-Lab.
+
 - [Qwen2-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct) Powerful large multimodal models developed by Alibaba.
 
 - [Qwen2.5-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct) Excellent language models developed by Alibaba.
