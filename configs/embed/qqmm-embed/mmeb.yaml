@@ -1,0 +1,17 @@
+_BASE_:
+  - '../../env/deepspeed.yaml'
+
+PROCESSOR_CONFIG:
+  processor_class: qqmm_nav_qwen2.processing_qqmm.QQMMProcessor
+  tokenizer_path: qqmm/models/Qwen2_5-7B-Instruct
+  image_processor_path: qqmm/models/Qwen2-VL-7B-Instruct-NaViT
+  vision_token_share_pe: true
+  image_processor_config:
+    size:
+      shortest_edge: 28
+      longest_edge: 1512
+    max_single_num_patches:
+      image: 8192
+      video: 8192
+    max_total_num_patches: 10240
+    min_resized_num_patches: 1024
